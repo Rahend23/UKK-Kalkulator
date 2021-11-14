@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
   <meta name="author" content="Creative Tim">
-  <title>Dashboard - Dashboard for Bootstrap 4</title>
+  <title>Hibook</title>
   <!-- Favicon -->
-  <link rel="icon" href={{ asset ('img/brand/favicon.png') }}>
+  <link rel="icon" href={{ asset ('img/brand/Hicon.png') }}>
   <!-- Fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
   <!-- Icons -->
@@ -22,46 +22,6 @@
 
 <body>
   <!-- Sidenav -->
-  <nav class="sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-white" id="sidenav-main">
-    <div class="scrollbar-inner">
-      <!-- Brand -->
-      <div class="sidenav-header  align-items-center">
-        <a class="navbar-brand" href="javascript:void(0)">
-          <img src={{ asset ('img/brand/blue.png') }} class="navbar-brand-img" alt="...">
-        </a>
-      </div>
-      <div class="navbar-inner">
-        <!-- Collapse -->
-        <div class="collapse navbar-collapse" id="sidenav-collapse-main">
-          <!-- Nav items -->
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" href="examples/dashboard.html">
-                <i class="ni ni-books text-primary"></i>
-                <span class="nav-link-text">Daftar Buku</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="example/icons.html">
-                <i class="ni ni-badge text-orange"></i>
-                <span class="nav-link-text">Daftar Siswa</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="examples/map.html">
-                <i class="ni ni-folder-17 text-primary"></i>
-                <span class="nav-link-text">Pinjaman</span>
-              </a>
-            </li>
-          </ul>
-          <!-- Divider -->
-          <hr class="my-3">
-          <!-- Heading -->
-          <!-- Navigation -->
-        </div>
-      </div>
-    </div>
-  </nav>
   <!-- Main content -->
   <div class="main-content" id="panel">
     <!-- Topnav -->
@@ -110,12 +70,12 @@
             <li class="nav-item dropdown">
               <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <div class="media align-items-center">
-                  <span class="avatar avatar-sm rounded-circle">
-                    <img alt="Image placeholder" src={{ asset ('img/theme/team-4.jpg') }}>
-                  </span>
                   <div class="media-body  ml-2  d-none d-lg-block">
                     <span class="mb-0 text-sm  font-weight-bold">Admin</span>
                   </div>
+                  <span class="avatar avatar-sm rounded-circle">
+                    <img alt="Image placeholder" src={{ asset ('img/theme/team-4.jpg') }}>
+                  </span>
                 </div>
               </a>
               <div class="dropdown-menu  dropdown-menu-right ">
@@ -151,29 +111,7 @@
     </nav>
     <!-- Header -->
     <!-- Header -->
-    <div class="header bg-primary pb-6">
-      <div class="container-fluid">
-        <div class="header-body">
-          <div class="row align-items-center py-4">
-            <div class="col-lg-6 col-7">
-              <h6 class="h2 text-white d-inline-block mb-0">Default</h6>
-              <nav aria-label="breadcrumb" class="d-none d-md-inline-block ml-md-4">
-                <ol class="breadcrumb breadcrumb-links breadcrumb-dark">
-                  <li class="breadcrumb-item"><a href="#"><i class="fas fa-home"></i></a></li>
-                  <li class="breadcrumb-item"><a href="#">Dashboards</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Default</li>
-                </ol>
-              </nav>
-            </div>
-            <div class="col-lg-6 col-5 text-right">
-              
-            </div>
-          </div>
-          <!-- Card stats -->
-          
-        </div>
-      </div>
-    </div>
+    
     <!-- Page content -->
     <div class="container-fluid mt--6">
       <div class="row">
@@ -239,31 +177,11 @@
         </div>
       </div>
       <!-- Footer -->
-      <footer class="footer pt-0">
-        <div class="row align-items-center justify-content-lg-between">
-          <div class="col-lg-6">
-            <div class="copyright text-center  text-lg-left  text-muted">
-              &copy; 2021 <a href="" class="font-weight-bold ml-1" target="_blank">Kanthi Wijaya</a>
+      <div class="row justify-content-center">
+            <div class="col-xl-15 col-lg-15 col-md-15 px-15">
+              &copy; 2021 <a href="#" class="font-weight-bold ml-1" target="_blank">Bima Saputra</a>
             </div>
-          </div>
-          <div class="col-lg-6">
-            <ul class="nav nav-footer justify-content-center justify-content-lg-end">
-              <li class="nav-item">
-                <a href="" class="nav-link" target="_blank">Creative Tim</a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link" target="_blank">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link" target="_blank">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link" target="_blank">MIT License</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </footer>
+    </div>
     </div>
   </div>
   <!-- Argon Scripts -->
